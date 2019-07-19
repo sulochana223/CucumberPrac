@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\sreenivasan\\eclipse-workspace\\Cucumber65\\Feature\\task.Feature", glue = "org.cucumber.com.Cucumber65",plugin={"html:target"})
+@CucumberOptions(features = "C:\\Users\\sreenivasan\\eclipse-workspace\\Cucumber65\\Feature", glue = "org.cucumber.com.Cucumber65",plugin={"html:target", "Json:target\report.Json"})
 public class TestRunner {
 
 }
